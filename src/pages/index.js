@@ -138,7 +138,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="pt-28">
+      <div className="pt-28 pb-20 lg:pb-0">
         <Image
           src="/1.png"
           alt="---"
