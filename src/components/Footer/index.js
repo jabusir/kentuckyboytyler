@@ -25,7 +25,7 @@ export default function Footer({ className, ...props }) {
 
   const mobileJSX = (
     <footer
-      className={`absolute top-full left-0 z-50 flex w-full flex-col items-center
+      className={`absolute top-full left-0 z-50 flex w-full flex-col items-center mt-20
     border-t border-light-gray bg-white pt-7 pb-6 text-xs sm:flex-row ${
       className ?? ""
     }`}

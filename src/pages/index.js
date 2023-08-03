@@ -138,7 +138,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="pt-28 pb-20 lg:pb-0">
+      <div className="pt-28">
         <Image
           src="/1.png"
           alt="---"
@@ -157,7 +157,7 @@ export default function Home() {
           className={` ${screenWidth < 900 ? "w-52 ml-36" : "w-96 ml-96"} z-10`}
         />
       </div>
-      <div>
+      <div className="pb-20 lg:pb-0">
         {patches.map(({ file, position, width }, i) => {
           const styles = `${screenWidth < 900 ? "absolute" : "fixed"} ${
             position[0]
